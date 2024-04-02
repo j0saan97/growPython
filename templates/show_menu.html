@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <a href='/' style='color:white;'>&lt; Volver</a>
+    <br>
+    <div class='container'>
+        <div class="row">
+            {% for object in prod_por_marca%}
+                <div class='container-fluid col-md-3' style='text-align:left'>
+                    <span style='color:white'>{{object['nombre']}}</span>
+                    <img src="{{object['image_url']}}" class="d-block rounded" style="width:40%">
+                </div>
+                <div class='container-fluid col-md-3'>
+                    
+                    <span style='background-color:transparent;font-size:28px;font-weight:bold;color:white'>{{object['descripcion']}}</span>
+                </div>
+            {% endfor%}
+        </div>
+    </div>
+{% endblock %}

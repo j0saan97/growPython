@@ -1,0 +1,121 @@
+
+.tao_menu {
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+  transition: 0.3s;
+  background-color: transparent !important;
+  cursor:pointer;
+  /*margin:10px;*/
+  /*background-color: green;*/
+}
+
+.tao_menu > a {
+  color: white !important;
+  font-weight:bold;
+  font-family: "OCR-A", monospace;
+}
+
+.paño-user {
+  /*background-color: #00796B;*/
+  background-image: url("/static/img/tapiz.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+/* SECCION CONTADOR*/
+.contador-dias{
+  font-size:26px;
+  max-width:300px;
+  color:aliceblue;
+  margin: 0 auto;
+}
+/* SECCION RESEÑAS*/
+
+#seccion-reseñas {
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 5%; */
+  margin-bottom: 20px;
+}
+
+#container-reseñas {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.container-reseñas {
+  margin-bottom: 20px;
+}
+
+#boton-acceso-reseñas {
+  text-align: center;
+  justify-content: center;
+}
+
+.pulgar {
+  width: 130px;
+}
+
+#map{
+  width:100%;
+  height: 600px;
+}
+
+/* FOOTER*/
+
+footer {
+  font-family: cursive;
+}
+
+.disx {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(238, 228, 228);
+  border: 3px solid white;
+}
+
+.diseño-grid {
+      display: grid;
+      grid-template-columns:  1fr 1fr 1fr ;
+      grid-template-rows: auto;
+      justify-content: space-around;
+      row-gap: 100px;
+      margin-top: 5px;
+      text-align: center;
+      margin: 0 auto;
+      background-color: rgb(238, 228, 228);
+      border: 1px solid #0dbd33;
+}
+
+  /*
+  Orientacion a Objetos
+  API
+  WebScrapping
+  css
+  html
+  javascript
+  python          -> [django, flask, machine_learning, odoo(ERP)]
+  Sql
+  */
+
+@media (min-width: 1000px) {
+  .advertencia-grow {
+    font-size: 40%;
+  }
+}
+
+#titulo-footer {
+font-size: 30px;
+font-family: "Brush Script MT", cursive;
+color: green;
+}
+
+.img-pagos-aceptados {
+  text-align: center;
+  font-size: 40px;
+}
+
+

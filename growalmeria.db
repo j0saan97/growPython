@@ -1,0 +1,48 @@
+/*Base de datos growweed*/
+/*Postgres 10.14*/
+/*José Sampere*/
+
+CREATE USER growadmin WITH PASSWORD 'root';
+ALTER USER growadmin CREATEDB;
+ALTER USER growadmin WITH SUPERUSER;
+CREATE DATABASE growalmeria WITH OWNER = growadmin;
+GRANT ALL PRIVILEGES ON DATABASE growalmeria TO growadmin;
+COMMENT ON DATABASE growalmeria IS 'Base de datos de GrowAlmeria';*/
+
+/*Tabla de usuarios*/
+CREATE TABLE public.usuarios(
+    id SERIAL PRIMARY KEY,									    /*Id serial*/
+    nombre VARCHAR(64),                                         /*Nombre del usuario*/
+    image_url TEXT,											    /*Imagen del usuario*/
+    correo VARCHAR(64)                                          /*Correo del usuario*/
+);
+
+/*Tabla de marcas*/
+CREATE TABLE public.marcas(
+    id SERIAL PRIMARY KEY,									/*Id serial*/
+    nombre VARCHAR(64),                                     /*Nombre del producto*/
+    image_url TEXT,										    /*Imagen de la marca*/
+    descripcion TEXT                                        /*Descripcion de la categoria*/
+);
+
+/*Tabla de categorias*/
+CREATE TABLE public.categorias(
+    id SERIAL PRIMARY KEY,									/*Id serial*/
+    nombre VARCHAR(64),                                     /*Nombre del producto*/
+    image_url TEXT,											/*Imagen de la categoria*/
+    descripcion TEXT                                        /*Descripcion de la categoria*/     
+);
+
+/*Tabla de productos*/
+CREATE TABLE public.productos(
+	id SERIAL PRIMARY KEY,									    /*Id serial*/
+	nombre VARCHAR(64) UNIQUE NOT NULL, 						/*Nombre del producto*/
+	id_categoria INTEGER REFERENCES public.categorias(id),	    /*Categoria del producto*/
+    id_marca INTEGER REFERENCES public.marcas(id),              /*id de la marca a que pertenece*/
+	image_url TEXT,												/*Imagen del producto*/
+	precio FLOAT DEFAULT 0.0,								    /*Precio del producto*/
+    stock INTEGER DEFAULT 0,                                    /*Cantidad disponible*/
+	descripcion TEXT,                                                 /*Descripcion del producto*/
+	disponibilidad BOOL DEFAULT FALSE,                          /*Indica si el producto estara disponible o no al publico*/
+    admin_code INTEGER REFERENCES public.usuarios(id)       /*Creador del producto*/
+);

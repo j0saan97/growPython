@@ -1,0 +1,188 @@
+{% extends 'layout.html' %}
+{% block note %}<br><span style='font-size:8px;'>josé sampere</span>{% endblock %}
+{% block content %}
+	<div class='container-fluid' style='padding:0px'>
+		<div class='container-fluid'>
+			<div class='container-fluid row'>
+				<div class='col-md-6'>
+					<!-- Carousel -->
+					<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+						<!-- Indicators/dots -->
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+							<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+							<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+						</div>
+
+						<!-- The slideshow/carousel -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="{{ url_for('static', filename='img/carrousel/car1.jpeg') }}" alt="Los Angeles" class="d-block rounded" style="width:100%">
+							</div>
+							<div class="carousel-item">
+								<img src="{{ url_for('static', filename='img/carrousel/car3.jpeg') }}" alt="Chicago" class="d-block rounded" style="width:100%">
+							</div>
+							<div class="carousel-item">
+								<img src="{{ url_for('static', filename='img/carrousel/car4.jpeg') }}" alt="New York" class="d-block rounded" style="width:100%">
+							</div>
+						</div>
+
+						<!-- Controles derecha e izquierda -->
+						<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</button>
+
+					</div>
+				</div>
+				<div class='col-md-6 flower'>
+					<div class="mt-4 p-5 text-white rounded d-none d-md-block" style="background-color:transparent;font-size:28px;font-weight:bold">
+						Bienvenidos a Grow Almería, su Grow Shop de confianza para todo lo relacionado con el cultivo y auto consumo de cannabis.<br>
+						Estamos comprometidos en blindar a nuestros clientes los mejores productos y servicios.<br>
+						Somos especialistas en semillas. Distribuidores oficiales de Optima Seeds y Sweet Seeds.Trabajamos directamente con fabricantes, sin intermediarios para poder ofrecer precios mayoristas.<br>
+						Mas de cinco años de experiencia y cientos de clientes satisfechos nos avalan.<br>
+						¡ Esperamos tu visita !
+					</div>
+
+					<button type="button" class="btn btn-success d-block d-sm-none" data-bs-toggle="collapse" data-bs-target="#demo" style='margin-top:10px;width:100%'>¿Por qué Grow Almería?</button>
+					<div id="demo" class="collapse" style="background-color:transparent;font-size:14px;color:white">
+						Bienvenidos a Grow Almería, su destino de confianza para todo lo relacionado con el cultivo de cannabis. En un mundo en constante evolución, en el que la legalización y la aceptación de esta planta se expanden, estamos comprometidos en brindar a nuestros clientes los productos y servicios más avanzados para satisfacer sus necesidades de cultivo de cannabis.
+						<br>
+						Trabajamos directamente con fabricantes para ofrecer los productos de mejor calidad a un precio muy competitivo. Más de 5 años de experiencia en el sector nos avalan.
+					</div>
+				</div>
+			</div>
+
+			<div class='container-fluid row' style='height:60px'></div>
+
+			<div class='container-fluid row'>
+				<div class='contenedorCards'>
+					{% for product in productos %}
+						<div class='card'>
+							<div class="wrapper">
+								<div class="colorProd"></div>
+								<div class="imgProd" style="background-image: url({{product['image_url']}});"></div>
+								<div class="infoProd">
+									<p class='nombreProd' onclick="show_info( '{{product['nombre']}}', '{{product['descripcion']}}' );" style='cursor:pointer'>{{product['nombre']}}</p>
+									<p class='extraInfo'>En stock</p>
+									<div class='actions'>
+										<div class='preciosGrupo'>
+											<label for='quantity-select'>Elije una cantidad</label>
+											<select id='precio_seleccionado_{{loop.index}}' name='precio-seleccionado' onchange="calculate_price('precio_seleccionado_{{loop.index}}', 'price_{{loop.index}}', {{[3.95, 10.95, 17.95]}} )" >
+												<option value=''> Elija una cantidad </option>
+												<option value='option1'>1 unidades</option>
+												<option value='option2'>3 unidades</option>
+												<option value='option3'>5 unidades</option>
+											</select>
+										</div>
+										<div class="icono action aFavs">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+												<path d="M47 5c-6.5 0-12.9 4.2-15 10-2.1-5.8-8.5-10-15-10A15 15 0 0 0 2 20c0 13 11 26 30 39 19-13 30-26 30-39A15 15 0 0 0 47 5z">
+											</path>
+											</svg>
+										</div>
+										<div class="icono action alCarrito">
+											<span id='price_{{loop.index}}' class="badge bg-success">{{product['precio']}} €</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+
+			<div class='container-fluid row' style='height:60px'></div>
+
+			<div class='container-fluid'>
+				<div class="container-reseñas">
+					<a href="https://g.page/r/CeeN6u65DvUzEAI/review" class="button">
+						<span class="button" id="boton-acceso-reseñas">
+							<img class='pulgar' src="{{ url_for('static', filename='img/clasificacion.png') }}" alt='Icono de reseñas' class='icono-reseñas'>
+							<h1>Deja una reseña</h1>
+						</span>
+					</a>
+				</div>
+				<div id="comentarios-reseñas">
+					<script src="https://widget.trustmary.com/gllXqHlJ5"></script>
+				</div>
+			</div>
+			<div id="seccion-ubicacion" class='container-fluid'>
+				<iframe id='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12766.463434539355!2d-2.4308064669501666!3d36.87561268767902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7a9f542efcdb95%3A0x33f50eb9eeea8de7!2sGrowAlmer%C3%ADa!5e0!3m2!1ses!2ses!4v1678302222815!5m2!1ses!2ses"></iframe>
+			</div>
+		</div>
+	</div>
+
+	<div class='container-fluid d-sm-block d-md-none d-lg-none'>
+		<div class="disx">
+			<div class='container-fluid row' style='display:flex; flex-direction:row;font-size:14px'>
+				<div class='item'>
+					<a href="mailto:growalmeria@gmail.com" style="font-size: 15px;">email: <code>growalmeria@gmail.com</code></a>
+				</div>
+			</div>
+			<br>
+			<div class='container-fluid' style='display:flex; flex-direction:row; justify-content:center'>
+				<div class="item fa-solid fa-phone fa-beat" style="font-size:32px">
+					<a href="tel:34640971554" style="font-size:40px"></a>
+				</div>
+				<div style='width:20px'></div>
+				<div  class="item fa-brands fa-whatsapp fa-beat" style="font-size:32px">
+					<a href="https://api.whatsapp.com/send/?phone=34640971554"></a>
+				</div>
+			</div>
+			<div class='container-fluid' style='display:flex; flex-direction:row;margin-bottom:20px;margin-top:20px;padding:0px;justify-content:center'>
+				<div class="item fa-brands fa-cc-visa fa-bounce" style="font-size:32px"></div>
+				<div class="item fa-brands fa-cc-paypal fa-bounce" style="font-size:32px"></div>
+				<div class="item fa-solid fa-credit-card fa-bounce" style="font-size:32px"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer class='d-none d-sm-block' style='width:100%'>
+	    <hr class='border border-success'>
+		<div class="diseño-grid" style="width:100%;background-image: url('https://growalmeria.com/static/img/imag-footer.png');background-position: center;background-size: cover; background-repeat: no-repeat;">
+			<div class="container-fluid">
+				<div class='row' style='text-align: center;'>
+					<div class='col-md-12'>
+						<h1 id="titulo-footer">GROW ALMERIA</h1><br>
+						<a href="mailto:growalmeria@gmail.com" style="font-size: 20px;color:orange;font-weight:bold">email: <code >growalmeria@gmail.com</code></a>
+						<address style="font-size: 20px;color:orange;font-weight:bold">
+                            C. Sierra de Aracena, 16, CP 04240 Viator, Almería
+                        </address>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='col-md-6'>
+						<a href="tel:34640971554" style="font-size:40px">
+							<i class="fa-solid fa-phone fa-beat"></i>
+						</a>
+					</div>
+					<div class='col-md-6'>
+						<a href="https://api.whatsapp.com/send/?phone=34640971554" style="font-size:40px">
+							<i class="fa-brands fa-whatsapp fa-beat" style="color: #73ff00;"></i>
+						</a>
+					</div>
+				</div>             
+			</div>
+			<div class="div-metodos-pago" > 
+				<div class="img-pagos-aceptados" >
+					<div class="advertencia-grow">
+						<p style="margin-top: 5px;">
+							<article style="display: inline-block;font-size: 20px;color:#141009;font-weight:bold">Grow Almería. Todos los derechos reservados</article> 
+						</p>
+					</div>
+					<i class="fa-brands fa-cc-visa fa-bounce"></i>
+					<i class="fa-brands fa-cc-paypal fa-bounce"></i>
+					<i class="fa-solid fa-credit-card fa-bounce"></i>
+					<i class="fa-solid fa-money-bill-transfer fa-bounce"></i>
+				</div>
+			</div>
+			<div class="columna">
+				<img src="static/img/iconogrowalmeria.png" style="width: 300px; margin-top: 40px;margin-bottom:40px" alt="icono grow almeria" id="icono-grow-footer">
+			</div>
+		</div>
+	</footer>
+{% endblock %}

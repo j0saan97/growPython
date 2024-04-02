@@ -1,0 +1,1338 @@
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 6, in <module>
+    import flask_bcrypt
+ModuleNotFoundError: No module named 'flask_bcrypt'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 6, in <module>
+    import flask_bcrypt
+ModuleNotFoundError: No module named 'flask_bcrypt'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 6, in <module>
+    import flask_bcrypt
+ModuleNotFoundError: No module named 'flask_bcrypt'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 6, in <module>
+    import flask_bcrypt
+ModuleNotFoundError: No module named 'flask_bcrypt'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 6, in <module>
+    import flask_bcrypt
+ModuleNotFoundError: No module named 'flask_bcrypt'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 6, in <module>
+    import flask_bcrypt
+ModuleNotFoundError: No module named 'flask_bcrypt'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 9, in <module>
+    application = wsgi.app56
+AttributeError: module 'wsgi' has no attribute 'app56'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 9, in <module>
+    application = wsgi.app56
+AttributeError: module 'wsgi' has no attribute 'app56'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 9, in <module>
+    application = wsgi.app56
+AttributeError: module 'wsgi' has no attribute 'app56'
+[2023-11-26 10:31:37,249] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 43, in main_page
+    return render_template('main_page.html', productos=productos)
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nofxdyfx/virtualenv/growalmeria.com/3.7/lib/python3.7/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: main_page.html
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+  File "/home/nofxdyfx/growalmeria.com/db_controller.py", line 22, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+  File "/home/nofxdyfx/growalmeria.com/db_controller.py", line 22, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+  File "/home/nofxdyfx/growalmeria.com/db_controller.py", line 22, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+  File "/home/nofxdyfx/growalmeria.com/db_controller.py", line 22, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+  File "/home/nofxdyfx/growalmeria.com/db_controller.py", line 22, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+  File "/home/nofxdyfx/growalmeria.com/db_controller.py", line 22, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 39, in <module>
+    PASSWORD = CONFIGFILE[USE_SECTION]['password']
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 1252, in __getitem__
+    return self._parser.get(self._name, key)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 799, in get
+    d)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 394, in before_get
+    self._interpolate_some(parser, option, L, value, section, defaults, 1)
+  File "/opt/alt/python37/lib64/python3.7/configparser.py", line 444, in _interpolate_some
+    "found: %r" % (rest,))
+configparser.InterpolationSyntaxError: '%' must be followed by '%' or '(', found: '%+j'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+Traceback (most recent call last):
+  File "/home/nofxdyfx/growalmeria.com/passenger_wsgi.py", line 8, in <module>
+    wsgi = imp.load_source('wsgi', 'app.py')
+  File "/opt/alt/python37/lib64/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "app.py", line 10, in <module>
+    from db_controller import ManageDatabase
+ModuleNotFoundError: No module named 'db_controller'
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2234][75658] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
